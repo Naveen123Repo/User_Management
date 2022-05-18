@@ -1,0 +1,14 @@
+insert into COUNTRY_MASTER(COUNTRY_ID, COUNTRY_NAME) values(1,'India');
+insert into COUNTRY_MASTER(COUNTRY_ID, COUNTRY_NAME) values(2,'USA');
+insert into STATES_MASTER(STATE_ID, COUNTRY_ID, STATE_NAME) values(1,1,'Andhra Pradesh');
+insert into STATES_MASTER(STATE_ID, COUNTRY_ID, STATE_NAME) values(2,1,'Karnataka');
+insert into STATES_MASTER(STATE_ID, COUNTRY_ID, STATE_NAME) values(3,2,'New Jersy');
+insert into STATES_MASTER(STATE_ID, COUNTRY_ID, STATE_NAME) values(4,2,'Ohio');
+insert into CITIES_MASTER(CITY_ID, CITY_NAME, STATE_ID) values(1,'Vizag',1);
+insert into CITIES_MASTER(CITY_ID, CITY_NAME, STATE_ID) values(2,'Guntur',1);
+insert into CITIES_MASTER(CITY_ID, CITY_NAME, STATE_ID) values(3,'Banglore',2);
+insert into CITIES_MASTER(CITY_ID, CITY_NAME, STATE_ID) values(4,'Mysore',2);
+insert into CITIES_MASTER(CITY_ID, CITY_NAME, STATE_ID) values(5,'Maywood',3);
+insert into CITIES_MASTER(CITY_ID, CITY_NAME, STATE_ID) values(6,'Westwood',3);
+insert into CITIES_MASTER(CITY_ID, CITY_NAME, STATE_ID) values(7,'Oakwood',4);
+insert into CITIES_MASTER(CITY_ID, CITY_NAME, STATE_ID) values(8,'Cuyahoga County',4);
